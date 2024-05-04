@@ -12,3 +12,22 @@
     overflow: hidden;
     font-family: "Outfit", sans-serif;
 }
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    place-items: center;
+}
+
+main .qr-box{
+    background: hsl(0, 0%, 100%);
+    width: 18em;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
